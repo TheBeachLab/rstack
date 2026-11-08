@@ -1,0 +1,22 @@
+{
+  "goal": "Reproduce and fix the named defect",
+  "scope": "The affected component and regression checks",
+  "stop_condition": "Original reproduction and relevant existing checks pass",
+  "steps": [
+    {
+      "id": "reproduce",
+      "deliverable": "A reliable failing reproduction",
+      "write_scope": "Isolated test workspace",
+      "verification": "Observe the reported failure"
+    },
+    {
+      "id": "fix",
+      "depends_on": [
+        "reproduce"
+      ],
+      "deliverable": "A durable scoped fix",
+      "write_scope": "Affected source and regression test",
+      "verification": "Repeat the reproduction and relevant existing checks"
+    }
+  ]
+}

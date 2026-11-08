@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "rstack",
+  "version": "1.0.0",
+  "description": "The full pstack engineering workflow package adapted for Rakazo: 64 skills, native helpers, history, models and automation recipes.",
+  "author": {
+    "name": "TheBeachLab"
+  },
+  "repository": "https://github.com/TheBeachLab/rstack",
+  "homepage": "https://github.com/TheBeachLab/rstack",
+  "license": "MIT",
+  "keywords": [
+    "rakazo",
+    "skills",
+    "engineering",
+    "workflows"
+  ]
+}
